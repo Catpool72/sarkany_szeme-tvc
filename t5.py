@@ -1,0 +1,17 @@
+from play import Play, pages
+p = Play('t5')
+p.wait(30); p.key('space'); p.key('down'); p.key('space', gap=90); p.key('space', gap=60)
+p.poke('items', 0xFF, 0xFF, 0xFF, 0x00, 0xFF)       # sok tárgy, minden kulcs
+p.goto(227); p.key('space', pages(227), gap=60); p.shot('kulcsok')
+p.key('right'); p.key('space', gap=60); p.key('space', pages(14), gap=60); p.shot('kulcs14')
+p.key('space', gap=60); p.key('space', pages(227), gap=60); p.shot('227_ujra')
+p.goto(143); p.key('space', pages(143), gap=60); p.shot('larva1'); p.key('space'); p.shot('larva2'); p.key('space'); p.shot('larva_menu')
+p.goto(182); p.key('space', pages(182), gap=60)
+for i in range(5): p.shot(f'raj{i}'); p.key('space')
+p.goto(264); p.key('space', pages(264), gap=60)
+for i in range(7): p.shot(f'veszt{i}'); p.key('space')
+p.key('right', 2, gap=10); p.key('space'); p.shot('lap')
+p.key('space', gap=60); p.key('space', pages(264), gap=60)
+p.poke('g_st', 1)
+p.goto(264); p.key('space', pages(264), gap=60); p.shot('halal'); p.key('space', gap=60); p.shot('ujjatek')
+p.run()

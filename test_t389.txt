@@ -1,0 +1,22 @@
+key 50 7 32
+key 53 7 0
+key 90 7 32
+key 93 7 0
+key 180 7 32
+key 183 7 0
+poke 240 61458 2
+poke 241 61512 133
+poke 241 61513 1
+key 242 7 32
+key 245 7 0
+shot 332 shots/t389_00_menu.ppm
+key 334 7 32
+key 337 7 0
+shot 394 shots/t389_01_proba.ppm
+key 396 7 32
+key 399 7 0
+shot 486 shots/t389_02_ujra389.ppm
+key 488 8 32
+key 491 8 0
+shot 528 shots/t389_03_88_kijelolve.ppm
+dump 530 61460 2

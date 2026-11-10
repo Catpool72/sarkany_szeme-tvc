@@ -1,0 +1,101 @@
+key 50 7 32
+key 53 7 0
+key 90 8 4
+key 93 8 0
+key 130 7 32
+key 133 7 0
+key 220 7 32
+key 223 7 0
+poke 280 61504 255
+poke 280 61505 255
+poke 280 61506 255
+poke 280 61507 0
+poke 280 61508 255
+poke 281 61512 227
+poke 281 61513 0
+key 282 7 32
+key 285 7 0
+shot 372 shots/t5_00_kulcsok.ppm
+key 374 8 32
+key 377 8 0
+key 414 7 32
+key 417 7 0
+shot 474 shots/t5_01_kulcs14.ppm
+key 476 7 32
+key 479 7 0
+shot 536 shots/t5_02_227_ujra.ppm
+poke 538 61512 143
+poke 538 61513 0
+key 539 7 32
+key 542 7 0
+key 629 7 32
+key 632 7 0
+shot 689 shots/t5_03_larva1.ppm
+key 691 7 32
+key 694 7 0
+shot 731 shots/t5_04_larva2.ppm
+key 733 7 32
+key 736 7 0
+shot 773 shots/t5_05_larva_menu.ppm
+poke 775 61512 182
+poke 775 61513 0
+key 776 7 32
+key 779 7 0
+shot 866 shots/t5_06_raj0.ppm
+key 868 7 32
+key 871 7 0
+shot 908 shots/t5_07_raj1.ppm
+key 910 7 32
+key 913 7 0
+shot 950 shots/t5_08_raj2.ppm
+key 952 7 32
+key 955 7 0
+shot 992 shots/t5_09_raj3.ppm
+key 994 7 32
+key 997 7 0
+shot 1034 shots/t5_10_raj4.ppm
+key 1036 7 32
+key 1039 7 0
+poke 1076 61512 8
+poke 1076 61513 1
+key 1077 7 32
+key 1080 7 0
+shot 1167 shots/t5_11_veszt0.ppm
+key 1169 7 32
+key 1172 7 0
+shot 1209 shots/t5_12_veszt1.ppm
+key 1211 7 32
+key 1214 7 0
+shot 1251 shots/t5_13_veszt2.ppm
+key 1253 7 32
+key 1256 7 0
+shot 1293 shots/t5_14_veszt3.ppm
+key 1295 7 32
+key 1298 7 0
+shot 1335 shots/t5_15_veszt4.ppm
+key 1337 7 32
+key 1340 7 0
+shot 1377 shots/t5_16_veszt5.ppm
+key 1379 7 32
+key 1382 7 0
+shot 1419 shots/t5_17_veszt6.ppm
+key 1421 7 32
+key 1424 7 0
+key 1461 8 32
+key 1464 8 0
+key 1471 8 32
+key 1474 8 0
+key 1481 7 32
+key 1484 7 0
+shot 1521 shots/t5_18_lap.ppm
+key 1523 7 32
+key 1526 7 0
+poke 1583 61460 1
+poke 1584 61512 8
+poke 1584 61513 1
+key 1585 7 32
+key 1588 7 0
+shot 1675 shots/t5_19_halal.ppm
+key 1677 7 32
+key 1680 7 0
+shot 1737 shots/t5_20_ujjatek.ppm

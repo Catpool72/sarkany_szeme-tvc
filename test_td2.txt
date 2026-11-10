@@ -1,0 +1,5 @@
+key 60 7 32
+key 63 7 0
+key 120 7 32
+key 123 7 0
+shot 240 shots/td2_00_elozmenyek.ppm

@@ -1,0 +1,99 @@
+key 50 7 32
+key 53 7 0
+key 90 8 4
+key 93 8 0
+key 130 7 32
+key 133 7 0
+key 220 7 32
+key 223 7 0
+poke 280 61512 2
+poke 280 61513 1
+key 281 7 32
+key 284 7 0
+shot 371 shots/t3_00_gain.ppm
+key 373 7 32
+key 376 7 0
+shot 413 shots/t3_01_menu258.ppm
+poke 415 61512 6
+poke 415 61513 1
+key 416 7 32
+key 419 7 0
+shot 506 shots/t3_02_luck.ppm
+key 508 7 32
+key 511 7 0
+shot 548 shots/t3_03_menu262.ppm
+poke 550 61512 133
+poke 550 61513 1
+key 551 7 32
+key 554 7 0
+shot 641 shots/t3_04_skill.ppm
+key 643 7 32
+key 646 7 0
+shot 683 shots/t3_05_menu389.ppm
+poke 685 61512 73
+poke 685 61513 1
+key 686 7 32
+key 689 7 0
+key 776 7 32
+key 779 7 0
+shot 836 shots/t3_06_shop.ppm
+key 838 8 4
+key 841 8 0
+key 878 7 32
+key 881 7 0
+shot 918 shots/t3_07_vett1.ppm
+key 920 7 32
+key 923 7 0
+key 960 8 4
+key 963 8 0
+key 975 8 4
+key 978 8 0
+key 990 7 32
+key 993 7 0
+shot 1030 shots/t3_08_vett2.ppm
+key 1032 7 32
+key 1035 7 0
+key 1072 8 4
+key 1075 8 0
+key 1087 8 4
+key 1090 8 0
+key 1102 7 32
+key 1105 7 0
+shot 1142 shots/t3_09_nincsmeg.ppm
+key 1144 7 32
+key 1147 7 0
+key 1184 8 4
+key 1187 8 0
+key 1194 8 4
+key 1197 8 0
+key 1204 8 4
+key 1207 8 0
+key 1214 8 4
+key 1217 8 0
+key 1224 8 4
+key 1227 8 0
+key 1234 8 4
+key 1237 8 0
+key 1244 8 4
+key 1247 8 0
+key 1254 8 4
+key 1257 8 0
+key 1264 8 4
+key 1267 8 0
+key 1274 8 4
+key 1277 8 0
+shot 1284 shots/t3_10_kesz.ppm
+key 1286 7 32
+key 1289 7 0
+key 1346 7 32
+key 1349 7 0
+shot 1406 shots/t3_11_menu329.ppm
+dump 1408 61458 9
+dump 1409 61504 8
+poke 1410 61512 79
+poke 1410 61513 0
+key 1411 7 32
+key 1414 7 0
+key 1501 7 32
+key 1504 7 0
+shot 1561 shots/t3_12_harcmenu.ppm

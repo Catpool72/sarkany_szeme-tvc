@@ -1,0 +1,32 @@
+key 50 7 32
+key 53 7 0
+shot 90 shots/doc_00_kalandlap.ppm
+key 92 8 4
+key 95 8 0
+key 132 7 32
+key 135 7 0
+key 222 7 32
+key 225 7 0
+poke 282 61512 6
+poke 282 61513 1
+key 283 7 32
+key 286 7 0
+shot 373 shots/doc_01_szerencse.ppm
+key 375 7 32
+key 378 7 0
+poke 415 61512 92
+poke 415 61513 1
+key 416 7 32
+key 419 7 0
+shot 506 shots/doc_02_harc_elott.ppm
+key 508 7 32
+key 511 7 0
+key 548 7 32
+key 551 7 0
+key 578 7 32
+key 581 7 0
+key 608 7 32
+key 611 7 0
+key 638 7 32
+key 641 7 0
+shot 668 shots/doc_03_harc.ppm

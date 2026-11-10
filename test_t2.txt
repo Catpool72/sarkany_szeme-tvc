@@ -1,0 +1,54 @@
+key 50 7 32
+key 53 7 0
+key 90 8 4
+key 93 8 0
+key 130 7 32
+key 133 7 0
+key 220 7 32
+key 223 7 0
+key 280 8 32
+key 283 8 0
+key 290 8 32
+key 293 8 0
+key 300 7 32
+key 303 7 0
+shot 340 shots/t2_00_lap.ppm
+key 342 7 32
+key 345 7 0
+poke 432 61512 92
+poke 432 61513 1
+key 433 7 32
+key 436 7 0
+shot 523 shots/t2_01_f348.ppm
+key 525 7 32
+key 528 7 0
+shot 550 shots/t2_02_kor0.ppm
+key 552 7 32
+key 555 7 0
+key 577 7 32
+key 580 7 0
+key 602 7 32
+key 605 7 0
+shot 627 shots/t2_03_kor3.ppm
+key 629 7 32
+key 632 7 0
+key 654 7 32
+key 657 7 0
+key 679 7 32
+key 682 7 0
+key 704 7 32
+key 707 7 0
+shot 729 shots/t2_04_kor7.ppm
+key 731 7 32
+key 734 7 0
+key 756 7 32
+key 759 7 0
+key 781 7 32
+key 784 7 0
+key 806 7 32
+key 809 7 0
+shot 831 shots/t2_05_kor11.ppm
+dump 833 61458 9
+dump 834 61492 4
+dump 835 61444 1
+dump 836 61512 4

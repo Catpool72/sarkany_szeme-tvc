@@ -1,0 +1,11 @@
+key 60 7 32
+key 63 7 0
+key 120 7 32
+key 123 7 0
+key 240 7 32
+key 243 7 0
+key 310 7 32
+key 313 7 0
+key 380 7 32
+key 383 7 0
+shot 450 shots/tv2_00_elo2.ppm

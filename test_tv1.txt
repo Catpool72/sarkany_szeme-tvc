@@ -1,0 +1,19 @@
+shot 60 shots/tv1_00_cim.ppm
+key 62 7 32
+key 65 7 0
+key 122 7 32
+key 125 7 0
+shot 242 shots/tv1_01_elozmenyek.ppm
+key 244 7 32
+key 247 7 0
+key 314 7 32
+key 317 7 0
+key 384 7 32
+key 387 7 0
+key 454 7 32
+key 457 7 0
+key 524 7 32
+key 527 7 0
+key 594 7 32
+key 597 7 0
+shot 664 shots/tv1_02_f1.ppm

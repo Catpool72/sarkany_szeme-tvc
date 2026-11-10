@@ -1,0 +1,99 @@
+key 50 7 32
+key 53 7 0
+key 90 8 4
+key 93 8 0
+key 130 7 32
+key 133 7 0
+key 220 7 32
+key 223 7 0
+poke 280 61512 79
+poke 280 61513 0
+key 281 7 32
+key 284 7 0
+key 371 7 32
+key 374 7 0
+key 431 8 32
+key 434 8 0
+key 471 7 32
+key 474 7 0
+shot 511 shots/t4_00_harc_kov.ppm
+key 513 7 32
+key 516 7 0
+key 543 7 32
+key 546 7 0
+key 573 7 32
+key 576 7 0
+shot 603 shots/t4_01_k2.ppm
+dump 605 61492 4
+key 606 7 32
+key 609 7 0
+key 636 7 32
+key 639 7 0
+key 666 7 32
+key 669 7 0
+shot 696 shots/t4_02_k5.ppm
+dump 698 61492 4
+key 699 7 32
+key 702 7 0
+key 729 7 32
+key 732 7 0
+key 759 7 32
+key 762 7 0
+shot 789 shots/t4_03_k8.ppm
+dump 791 61492 4
+key 792 7 32
+key 795 7 0
+key 822 7 32
+key 825 7 0
+key 852 7 32
+key 855 7 0
+shot 882 shots/t4_04_k11.ppm
+dump 884 61492 4
+key 885 7 32
+key 888 7 0
+key 915 7 32
+key 918 7 0
+key 945 7 32
+key 948 7 0
+shot 975 shots/t4_05_k14.ppm
+dump 977 61492 4
+key 978 7 32
+key 981 7 0
+key 1008 7 32
+key 1011 7 0
+key 1038 7 32
+key 1041 7 0
+shot 1068 shots/t4_06_k17.ppm
+dump 1070 61492 4
+key 1071 7 32
+key 1074 7 0
+key 1101 7 32
+key 1104 7 0
+key 1131 7 32
+key 1134 7 0
+shot 1161 shots/t4_07_k20.ppm
+dump 1163 61492 4
+key 1164 7 32
+key 1167 7 0
+key 1194 7 32
+key 1197 7 0
+key 1224 7 32
+key 1227 7 0
+shot 1254 shots/t4_08_k23.ppm
+dump 1256 61492 4
+key 1257 7 32
+key 1260 7 0
+key 1287 7 32
+key 1290 7 0
+key 1317 7 32
+key 1320 7 0
+shot 1347 shots/t4_09_k26.ppm
+dump 1349 61492 4
+key 1350 7 32
+key 1353 7 0
+key 1380 7 32
+key 1383 7 0
+key 1410 7 32
+key 1413 7 0
+shot 1440 shots/t4_10_k29.ppm
+dump 1442 61492 4

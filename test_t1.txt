@@ -1,0 +1,28 @@
+shot 50 shots/t1_00_cim.ppm
+key 52 7 32
+key 55 7 0
+shot 92 shots/t1_01_kalandlap.ppm
+key 94 8 4
+key 97 8 0
+shot 134 shots/t1_02_ital_valaszt.ppm
+key 136 7 32
+key 139 7 0
+shot 226 shots/t1_03_f1_lap1.ppm
+key 228 7 32
+key 231 7 0
+shot 288 shots/t1_04_f1_menu.ppm
+dump 290 61458 9
+dump 291 61504 8
+key 292 8 32
+key 295 8 0
+key 302 8 32
+key 305 8 0
+key 312 8 32
+key 315 8 0
+shot 322 shots/t1_05_menu_lap.ppm
+key 324 7 32
+key 327 7 0
+shot 364 shots/t1_06_kalandlap_nezet.ppm
+key 366 7 32
+key 369 7 0
+shot 456 shots/t1_07_vissza.ppm

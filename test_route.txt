@@ -1,0 +1,46 @@
+shot 30 shots/s00_cim.ppm
+key 40 7 32
+key 43 7 0
+shot 123 shots/s00_1_lap.ppm
+key 128 7 32
+key 131 7 0
+shot 191 shots/s00_1.ppm
+key 196 8 32
+key 199 8 0
+key 207 7 32
+key 210 7 0
+shot 290 shots/s01_69.ppm
+key 295 7 32
+key 298 7 0
+shot 378 shots/s02_186.ppm
+key 383 7 32
+key 386 7 0
+shot 466 shots/s03_389.ppm
+key 471 7 32
+key 474 7 0
+shot 554 shots/s04_26.ppm
+key 559 8 32
+key 562 8 0
+key 570 7 32
+key 573 7 0
+shot 653 shots/s05_243.ppm
+key 658 8 32
+key 661 8 0
+key 669 7 32
+key 672 7 0
+shot 752 shots/s06_322.ppm
+key 757 7 32
+key 760 7 0
+shot 840 shots/s07_158_lap.ppm
+key 845 7 32
+key 848 7 0
+shot 908 shots/s07_158.ppm
+key 913 8 32
+key 916 8 0
+key 924 8 32
+key 927 8 0
+key 935 7 32
+key 938 7 0
+shot 1018 shots/s08_377.ppm
+key 1023 7 8
+key 1026 7 0

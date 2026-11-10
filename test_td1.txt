@@ -1,0 +1,64 @@
+shot 60 shots/td1_00_cim.ppm
+key 62 7 32
+key 65 7 0
+key 122 8 4
+key 125 8 0
+key 162 7 32
+key 165 7 0
+key 252 7 32
+key 255 7 0
+shot 312 shots/td1_01_f1.ppm
+poke 314 61512 144
+poke 314 61513 1
+key 315 7 32
+key 318 7 0
+key 405 7 32
+key 408 7 0
+key 465 7 32
+key 468 7 0
+shot 525 shots/td1_02_s400.ppm
+poke 527 61512 227
+poke 527 61513 0
+key 528 7 32
+key 531 7 0
+shot 618 shots/td1_03_s227.ppm
+poke 620 61512 35
+poke 620 61513 0
+key 621 7 32
+key 624 7 0
+key 711 7 32
+key 714 7 0
+shot 771 shots/td1_04_s35.ppm
+poke 773 61512 185
+poke 773 61513 0
+key 774 7 32
+key 777 7 0
+key 864 7 32
+key 867 7 0
+shot 924 shots/td1_05_s185.ppm
+poke 926 61512 34
+poke 926 61513 1
+key 927 7 32
+key 930 7 0
+key 1017 7 32
+key 1020 7 0
+shot 1077 shots/td1_06_s290.ppm
+poke 1079 61512 137
+poke 1079 61513 0
+key 1080 7 32
+key 1083 7 0
+key 1170 7 32
+key 1173 7 0
+shot 1230 shots/td1_07_s137.ppm
+poke 1232 61512 49
+poke 1232 61513 0
+key 1233 7 32
+key 1236 7 0
+key 1323 7 32
+key 1326 7 0
+key 1383 7 32
+key 1386 7 0
+key 1443 7 32
+key 1446 7 0
+shot 1503 shots/td1_08_s49.ppm
+dump 1505 61792 8

@@ -1,0 +1,47 @@
+key 50 7 32
+key 53 7 0
+key 90 7 32
+key 93 7 0
+key 180 7 32
+key 183 7 0
+poke 240 61460 30
+poke 241 61512 12
+poke 241 61513 0
+key 242 7 32
+key 245 7 0
+key 332 7 32
+key 335 7 0
+shot 392 shots/t7_00_harc_kov.ppm
+key 394 7 32
+key 397 7 0
+key 434 7 32
+key 437 7 0
+key 464 7 32
+key 467 7 0
+key 494 7 32
+key 497 7 0
+shot 524 shots/t7_01_k2.ppm
+key 526 7 32
+key 529 7 0
+key 556 7 32
+key 559 7 0
+key 586 7 32
+key 589 7 0
+shot 616 shots/t7_02_k5.ppm
+key 618 7 32
+key 621 7 0
+key 648 7 32
+key 651 7 0
+key 678 7 32
+key 681 7 0
+shot 708 shots/t7_03_k8.ppm
+key 710 7 32
+key 713 7 0
+key 740 7 32
+key 743 7 0
+key 770 7 32
+key 773 7 0
+shot 800 shots/t7_04_k11.ppm
+dump 802 61467 1
+dump 803 61512 2
+dump 804 61444 1

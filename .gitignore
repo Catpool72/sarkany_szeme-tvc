@@ -1,0 +1,4 @@
+build*/
+__pycache__/
+harness/tvcsim
+*.ppm
