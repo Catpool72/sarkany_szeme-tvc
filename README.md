@@ -2,7 +2,7 @@
 
 Ian Livingstone *A Sárkány szeme* (Eye of the Dragon) című lapozós kalandkönyvének TVC-átirata, Z80 gépi kódban:
 a teljes könyv (407 fejezet, 30 rajz) lemezen (VT-DOS), és egy 48 fejezetes kazettás demó. Szabálymotor
-(kalandlap, harc, próbák, tárgyak, arany, bolt, kulcsok), zene, mentés és visszatöltés, választható színek.
+(kalandlap, harc, próbák, tárgyak, arany, bolt, kulcsok), zene, mentés és visszatöltés; fekete betű fehér lapon, mint egy nyomtatott könyvben.
 
 > **Szerzői jog:** a könyv eredeti szövege és rajzai a szerzőé és a kiadóé; a magyar fordítás a Zagor.hu munkája.
 > Ez a tároló magáncélú, nem nyilvános; a szöveget és a rajzokat ne tedd közzé engedély nélkül.
@@ -16,12 +16,11 @@ a teljes könyv (407 fejezet, 30 rajz) lemezen (VT-DOS), és egy 48 fejezetes ka
 
 Billentyűk: **Szóköz/Tűz** lapozás és választás, **nyilak** a menüben, **Esc** kilépés a BASIC-be.
 A menüben mindig ott a **Lap** (kalandlap) és az **Ital**. Lemezen a kalandlapon **Fel** = mentés,
-**Le** = visszatöltés; a címlapon **Le** = a mentett játék. **Bal/Jobb** a címlapon és a kalandlapon:
-háttér- és tintaszín. Tesztelve: Ep128web, és teki rtvc emulátora valódi VT-DOS-szal.
+**Le** = visszatöltés; a címlapon **Le** = a mentett játék. Tesztelve: Ep128web, és teki rtvc emulátora valódi VT-DOS-szal.
 
 ## A motor
 
-Videoton TVC 64K, 2 színű mód (512×240), **zöld a feketén** (paletta: $60 = fekete háttér, $61 = $50 világoszöld; a rajzokban a fehér papír zöld, a vonalak feketék), Z80 gépi kód, `10 PRINT USR(6659)` betöltővel, automatikus indítással.
+Videoton TVC 64K, 2 színű mód (512×240), **fekete a fehéren** (paletta: $60 = $55 fehér háttér, $61 = $00 fekete tinta, fehér keret; a rajzok fekete vonalai feketék, a papír fehér), Z80 gépi kód, `10 PRINT USR(6659)` betöltővel, automatikus indítással.
 A hardverkezelés a BLOKK 3D konvencióit követi: lapozás `$B0`/`$90`/`$70`, billentyűzet 8. és 7. sor,
 képkocka-szinkron a `$59`-es porton, kilépés a ROM-másolatok visszaírásával és `RST $30 / $05`-tel.
 
@@ -68,12 +67,11 @@ bájtkóddá fordít és a fejezet ugrótáblája mögé tesz (a teljes könyvre
 | ![](docs/06_kalandlap.png) | ![](docs/07_szerencsepróba.png) |
 | ![](docs/08_harc.png) | ![](docs/09_bolt.png) |
 
-## Színek
-A címlapon és a kalandlapon (menü: *Lap*) **Bal** = következő háttérszín, **Jobb** = következő tintaszín, a TVC
-16 színéből (a színindex bitjei: kék, vörös, zöld, fényes → a paletta `0I0G0R0B` formátuma). Ugyanaz a szín
-nem lehet háttér és tinta is. Alapérték: fekete háttér, világoszöld tinta. A 2 színű módban a rajzok is ezt a
-két színt használják (papír = tinta, vonal = háttér). A választás új játéknál is megmarad, és a lemezolvasás
-után is visszaáll; a mentés nem tartalmazza.
+## Színek és elrendezés
+Fekete betű és rajz fehér lapon, fehér kerettel; a színek nem változtathatók. A könyv szövege a 21. sorig
+tart: alatta mindig marad egy üres sor, és csak utána jön az állapotsor és a menü. (A motor könyvenként
+állítható: `build.py` → `meta`: `paper`, `ink`, `border`, `fixed_palette`, `text_gap`, `img_invert`. A korábbi
+zöld-fekete, színválasztós változathoz: `meta = {}`.)
 
 ## Zene
 Saját szerzemények a TVC egyszólamú hanggenerátorára (`zene.py` → `zene.inc`, lejátszó: `zene.asm`):

@@ -83,7 +83,10 @@ def main():
     if not a.out:
         a.out = os.path.join(HERE, 'build' + ('_' + os.path.basename(os.path.abspath(a.book)) if a.book else ''))
     global BOOK, ILL_DIR, IMG_SECT
-    meta = {}
+    # A Sárkány szeme (alapkönyv): fekete betű fehér lapon, fehér keret, színváltás nélkül,
+    # üres sor a szöveg és az állapotsor között. A rajzok fekete tusrajzok fehér papíron,
+    # ezért nem kell megfordítani őket (a sötét képpont lesz a tinta).
+    meta = {'paper': 15, 'ink': 0, 'border': 0xAA, 'fixed_palette': True, 'text_gap': True}
     if a.book:
         bd = os.path.abspath(a.book)
         BOOK = os.path.join(bd, 'book.json'); ILL_DIR = os.path.join(bd, 'ill'); IMG_SECT = os.path.join(bd, 'img_sections.json')
@@ -262,6 +265,7 @@ def main():
         w('SEC_IMG:                  ; fejezetszám -> rajz sorszáma (0 = nincs)')
         dbs([0] + [imgs.index(n) + 1 if n in imgs else 0 for n in range(1, NS + 1)] + ([0] if HAS_INTRO else []))
         w('JUMPTAB:                  ; fejezetszám -> mutató: db darab, dw célok')
+        w(f'JUMPTAB_N   equ {NS + 1 + (1 if HAS_INTRO else 0)}      ; a táblázat elemszáma')
         dbs([('J0' if 0 in cs else '0')] + [f'J{n}' if n in cs else '0' for n in range(1, NS + 1)]
             + ([f'J{NS + 1}'] if HAS_INTRO else []), 'dw')
         enc_str = lambda t: [idx[c] for c in t] + [0]
