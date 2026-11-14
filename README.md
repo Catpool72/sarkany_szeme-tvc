@@ -166,6 +166,7 @@ A szabályok tesztjei: `play.py` (forgatókönyv-író: billentyű, várakozás,
 A kulcsos, lárvás stb. fejezetek egy `--include`-os tesztbuildben vannak: `BUILD=build_t python3 t5.py`.
 
 ## Fájlok
+- `kepek_feljavitasra/` – a 30 kép külön, sorszámmal és fejezetszámmal elnevezve, leírással (feljavításhoz)
 - `lemez/` – a kész lemezkép és a kazettás demó
 - `konyv/` – a könyv szövege: `sarkany_szeme.json` (fejezetek, lapozási célok, előzmények), `sarkany_szeme_lektoralt.txt`
   (olvasható, lektorált szöveg), `README_szoveg.md` (a szöveg kinyerése és javítása)
