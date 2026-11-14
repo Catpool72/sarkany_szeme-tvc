@@ -15,7 +15,7 @@ KEYS = {'space': (7, 0x20), 'esc': (7, 0x08), 'up': (8, 0x02), 'down': (8, 0x04)
 import json
 _doc = json.load(open(os.path.join(HERE, 'konyv', 'sarkany_szeme.json'), encoding='utf-8'))
 _S = {x['id']: x for x in _doc['sections']}
-def pages(n, W=33, ROWS=22):
+def pages(n, W=33, ROWS=21):
     text = _S[n]['text']
     col, row, pg = 0, 1, 0
     def nl():
