@@ -4,9 +4,12 @@ Ian Livingstone *A Sárkány szeme* (Eye of the Dragon) című lapozós kalandk�
 a teljes könyv (407 fejezet, 30 rajz) lemezen (VT-DOS), és egy 48 fejezetes kazettás demó. Szabálymotor
 (kalandlap, harc, próbák, tárgyak, arany, bolt, kulcsok), zene, mentés és visszatöltés; fekete betű fehér lapon, mint egy nyomtatott könyvben.
 
-> **Szerzői jog:** a könyv eredeti szövege és rajzai a szerzőé és a kiadóé; a magyar fordítás a Zagor.hu munkája.
-> Ez a tároló magáncélú, nem nyilvános; a szöveget és a rajzokat ne tedd közzé engedély nélkül.
-> A motor, a fordító, a szabálykód és a zene saját munka.
+**AI-jal készült:** a program, a szabálykód és a zene Claude (Anthropic), a 30 rajz ChatGPT munkája (az eredeti
+illusztrációk nyomán, új rajzként); a címlapon is szerepel.
+
+> **Szerzői jog:** a könyv eredeti szövege és illusztrációi a szerzőé és a kiadóé; a magyar fordítás a Zagor.hu munkája.
+> Ez a tároló magáncélú, nem nyilvános; a szöveget és a képeket ne tedd közzé engedély nélkül.
+> A motor, a fordító, a szabálykód és a zene saját munka; a rajzok ChatGPT-vel készültek.
 
 ## Gyors indítás
 | Fájl | Mire |
@@ -26,8 +29,13 @@ képkocka-szinkron a `$59`-es porton, kilépés a ROM-másolatok visszaírásáv
 
 ![Címlap](docs/01_cimlap.png)
 
+### A 30 rajz a TVC-n
+![A 30 rajz a TVC-n](kepek_eredeti/kompozit_tvc.png)
+
+Az eredeti, nagy felbontású rajzok: [`kepek_eredeti/`](kepek_eredeti/) (`01.png`…`30.png`).
+
 ## Mit tud
-- **Rajz** a képernyő bal felén (30 bájt × 240 sor = 240×240 pont), **szöveg** a jobb felén: 33 oszlop × 22 sor, saját 8×10-es font magyar ékezetekkel.
+- **Rajz** a képernyő bal felén (30 bájt × 240 sor = 240×240 pont), **szöveg** a jobb felén: 33 oszlop, a könyv szövege 21 sor + üres sor + 2 állapotsor, saját 8×10-es font magyar ékezetekkel.
 - Szótördelés; ha a fejezet nem fér egy oldalra: „--- tovább: Szóköz ---”.
 - A fejezet végén a **„Lapozz:”** menü: a célok közül kurzorral (bal/jobb/fel/le) választasz, Szóközzel vagy Tűzzel lapozol.
 - Halál / vég esetén „VÉGE. Szóköz: újra”, Esc bármikor kilép a BASIC-be.
@@ -168,7 +176,7 @@ A kulcsos, lárvás stb. fejezetek egy `--include`-os tesztbuildben vannak: `BUI
 ## Fájlok
 - `kepek_eredeti/` – a 30 új, feljavított kép eredeti méretben (`01.png`…`30.png`, sorrendben a `kepek_feljavitasra/` listája szerint), és az áttekintésük a TVC-n
 - `ill/` – a lemezre kerülő képek (a 23. a fehér margó és a keret nélkül)
-- `kepek_feljavitasra/` – a 30 kép külön, sorszámmal és fejezetszámmal elnevezve, leírással (feljavításhoz) – a régi, könyvből kivágott változat
+- `kepek_feljavitasra/` – a régi, könyvből kivágott 30 kép (ezekből készültek az újak), leírással
 - `lemez/` – a kész lemezkép és a kazettás demó
 - `konyv/` – a könyv szövege: `sarkany_szeme.json` (fejezetek, lapozási célok, előzmények), `sarkany_szeme_lektoralt.txt`
   (olvasható, lektorált szöveg), `README_szoveg.md` (a szöveg kinyerése és javítása)
@@ -181,7 +189,7 @@ A kulcsos, lárvás stb. fejezetek egy `--include`-os tesztbuildben vannak: `BUI
 - `build.py` – font, tömörítés, demó-részhalmaz, rajzok, `data.inc`, fordítás, CAS
 - `font.py` – a 8×10-es font (saját tervezés), `mkcas.py` – CAS csomagoló (BLOKK 3D)
 - `img_sections.json` – rajz (PDF-oldal) → fejezet hozzárendelés (a rajz helyéből, közelítő)
-- `ill/` – a 30 kivágott rajz, `harness/` – tesztkörnyezet, `mktest.py`, `test_ut_377.txt`
+- `harness/` – tesztkörnyezet, `tdocs.py` – a `docs/` képernyőképei, `mktest.py`, `test_ut_377.txt`
 
 ## Egyszerűsítések, hiányzik még
 - Harc közben a szerencse nem használható a sebzés módosítására; a kettős marás találathatára a kör végén számít.
